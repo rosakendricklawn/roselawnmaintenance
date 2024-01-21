@@ -179,7 +179,8 @@ body.active { overflow: hidden; }
 .h5 { line-height: 1.2; }
 
 .h1,
-.h2 { font-weight: var(--fw-300); }
+.h2,
+.h3 { font-weight: var(--fw-300); }
 
 .h1 { font-size: var(--fs-1); }
 
