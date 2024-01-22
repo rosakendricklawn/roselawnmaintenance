@@ -122,7 +122,7 @@
         <div class="container">
 
           <h1 class="h1 hero-title">
-            <strong class="strong"><b>#1 for Lush, Healthy Lawns.</b></strong>Keep your lawn looking its best year-round. <strong class="strong"><b>Serving Lake County, FL since 1990!</b></strong>
+            <strong class="strong"><b>#1 for Lush, Healthy Lawns.</b></strong>Keep your lawn looking its best year-round.<strong class="strong"><b>Serving Lake County, FL since 1990!</b></strong>
           </h1>
 
           <div class="wrapper">
@@ -440,19 +440,12 @@
           <p class="section-subtitle">
             <strong class="strong"><b>About us</b></strong>
           </p>
-          <ul class="grid-list">
-            <li>
-              <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
-                  <img src="./assets/images/recommended-1.jpg" width="300" height="360" loading="lazy"
-                    alt="Rosa Lawn Maintenance Crew Photo" class="img-cover">
-                </figure>
+          <img src="./assets/images/lawncrewteamphoto.png" loading="lazy"
+          alt="Rosa Lawn Maintenance Crew Photo" class="img-cover">
 
-              </div>
-            </li>
-          
-          </ul>
+          <br>
+
           <h3 class="h3 about"><strong class="strong"><b>Since 1990, Rosa Lawn Maintenance has been beautifying Lake County, Florida, one flourishing landscape at a time.</b></strong>
             From manicured office lawns and vibrant apartment complexes to pristine private residences and towering commercial buildings, we bring expertise and dedication to every project. 
             Whether it's nurturing majestic palm trees, laying lush sod, clearing unwanted debris, or boosting greenery with expert fertilization, our comprehensive services cater to every lawn's needs.
@@ -471,14 +464,16 @@
           Send us a <strong class="strong"><b>message</b></strong>
         </h2>
         
-        <form action="https://formsubmit.co/rosakendricklawn@gmail.com" class="newsletter-form" method="POST" />
-          <input type="name" name="your_name" placeholder="name" required class="text-field">
+        <form action="https://formsubmit.co/rosakendricklawn@gmail.com" class="newsletter-form" autocomplete="on" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thankyou.html">
+          <input type="name" name="your_name" placeholder="name" autocomplete="name" required class="text-field">
           <br>
-          <input type="phone" name="phone_number" placeholder="phone number" required class="text-field">
+          <input type="phone" name="phone_number" placeholder="phone number" autocomplete="tel-national" required class="text-field">
           <br>
-          <input type="email" name="email" placeholder="email" required class="text-field">
+          <input type="email" name="email" placeholder="email" autocomplete="email" required class="text-field">
           <br>
-          <input type="address" name="address" placeholder="address" required class="text-field">
+          <input type="address" name="address" placeholder="address" autocomplete="street-address" required class="text-field">
           <br>
           <textarea type="message" name="message" placeholder="message" required class="message-field"></textarea>
           <br>
